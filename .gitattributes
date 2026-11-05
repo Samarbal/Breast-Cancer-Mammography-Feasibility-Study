@@ -1,0 +1,2 @@
+# Preserve official CSV bytes so the SHA-256 values in TASK-02 remain reproducible.
+data/cbis_ddsm/original/*.csv -text

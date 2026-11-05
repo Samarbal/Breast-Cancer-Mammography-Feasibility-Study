@@ -1,0 +1,18 @@
+# Local environments and caches
+.venv/
+.uv-cache/
+__pycache__/
+*.py[cod]
+
+# Original DICOM pixels are obtained from TCIA, not stored in this code repository.
+data/cbis_ddsm/original/series_zips/
+data/cbis_ddsm/original/single_images/
+*.dcm
+*.dicom
+
+# Local credentials and editor files
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/

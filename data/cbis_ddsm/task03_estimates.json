@@ -1,0 +1,38 @@
+{
+  "method": "Eight-row mean per split/pathology/view stratum, weighted by all CSV rows; unique full-series correction by split. ROI/crop estimate is row-weighted. This assumes sampled sizes represent each stratum.",
+  "sample_rows": 96,
+  "sample_unique_series": 195,
+  "by_split": {
+    "train": {
+      "population_rows": 1318,
+      "unique_full_series": 1231,
+      "estimated_full_bytes": 41566711256,
+      "estimated_roi_crop_bytes": 22704427007,
+      "estimated_total_bytes": 64271138263
+    },
+    "test": {
+      "population_rows": 378,
+      "unique_full_series": 361,
+      "estimated_full_bytes": 11588956038,
+      "estimated_roi_crop_bytes": 6073212144,
+      "estimated_total_bytes": 17662168182
+    }
+  },
+  "estimated_mass_dicom_bytes": 81933306445,
+  "metadata_sample_bootstrap_95pct_bytes": [
+    75594369721,
+    88830074553
+  ],
+  "task02_crop_bytes": {
+    "min": 41346,
+    "median": 148664,
+    "max": 606378
+  },
+  "task02_full_pixels": {
+    "min": 9796846,
+    "median": 15467759,
+    "max": 22841356
+  },
+  "task02_uint16_full_bytes_at_max_pixels": 45682712,
+  "task02_float32_full_bytes_at_max_pixels": 91365424
+}

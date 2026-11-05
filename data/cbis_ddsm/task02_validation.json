@@ -1,0 +1,1034 @@
+[
+  {
+    "patient_id": "P_00001",
+    "view": "CC",
+    "laterality": "LEFT",
+    "abnormality_id": "1",
+    "pathology": "MALIGNANT",
+    "full_zip": {
+      "zip_path": "data\\cbis_ddsm\\original\\series_zips\\1.3.6.1.4.1.9590.100.1.2.342386194811267636608694132590482924515.zip",
+      "zip_bytes": 10334323,
+      "zip_sha256": "fb9aaa0ded54b186ab12c1faae38e883978590a38dfd02fc164de2effe06f374"
+    },
+    "roi_zip": {
+      "zip_path": "data\\cbis_ddsm\\original\\series_zips\\1.3.6.1.4.1.9590.100.1.2.296736403313792599626368780122205399650.zip",
+      "zip_bytes": 385141,
+      "zip_sha256": "2110b437b17d6f670df8e0a3b51063eabded16aca5aeee7b6c14a0efbac1c562"
+    },
+    "full_files": [
+      {
+        "name": "00000001.dcm",
+        "bytes": 29079880,
+        "md5_ok": true,
+        "patient_id": "Mass-Training_P_00001_LEFT_CC",
+        "series_uid": "1.3.6.1.4.1.9590.100.1.2.342386194811267636608694132590482924515",
+        "sop_uid": "1.3.6.1.4.1.9590.100.1.2.156556873010981646517128874312129349516",
+        "instance_number": "1",
+        "series_description": "full mammogram images",
+        "rows": 4808,
+        "cols": 3024,
+        "bits_stored": 16,
+        "transfer_syntax": "1.2.840.10008.1.2",
+        "min": 0,
+        "max": 65535,
+        "unique_count": 2978
+      }
+    ],
+    "roi_files": [
+      {
+        "name": "00000001.dcm",
+        "bytes": 14540486,
+        "md5_ok": true,
+        "patient_id": "Mass-Training_P_00001_LEFT_CC_1",
+        "series_uid": "1.3.6.1.4.1.9590.100.1.2.296736403313792599626368780122205399650",
+        "sop_uid": "1.3.6.1.4.1.9590.100.1.2.14875889413880494636004673850848948118",
+        "instance_number": "1",
+        "series_description": "ROI mask images",
+        "rows": 4808,
+        "cols": 3024,
+        "bits_stored": 8,
+        "transfer_syntax": "1.2.840.10008.1.2",
+        "min": 0,
+        "max": 255,
+        "unique_count": 2
+      },
+      {
+        "name": "00000002.dcm",
+        "bytes": 445022,
+        "md5_ok": true,
+        "patient_id": "Mass-Training_P_00001_LEFT_CC_1",
+        "series_uid": "1.3.6.1.4.1.9590.100.1.2.296736403313792599626368780122205399650",
+        "sop_uid": "1.3.6.1.4.1.9590.100.1.2.279230283311549236005970654043226959450",
+        "instance_number": "1",
+        "series_description": "cropped images",
+        "rows": 515,
+        "cols": 431,
+        "bits_stored": 16,
+        "transfer_syntax": "1.2.840.10008.1.2",
+        "min": 25814,
+        "max": 65535,
+        "unique_count": 1190
+      }
+    ],
+    "mask_file": "00000001.dcm",
+    "crop_file": "00000002.dcm",
+    "bbox_xyxy_inclusive": [
+      270,
+      2422,
+      660,
+      2896
+    ],
+    "mask_area_pixels": 120561,
+    "mask_area_fraction": 0.008292024865964134,
+    "alignment_shape_ok": true,
+    "crop_smaller_than_full": true,
+    "overlay": "reports\\figures\\task02_P_00001_CC_overlay.png",
+    "status": "pass"
+  },
+  {
+    "patient_id": "P_00009",
+    "view": "CC",
+    "laterality": "RIGHT",
+    "abnormality_id": "1",
+    "pathology": "MALIGNANT",
+    "full_zip": {
+      "zip_path": "data\\cbis_ddsm\\original\\series_zips\\1.3.6.1.4.1.9590.100.1.2.392091931911637760938815694332198115839.zip",
+      "zip_bytes": 7725550,
+      "zip_sha256": "640fb9705d0a853687510aabef2f92c241a596723fb7673955580a31f2cdb041"
+    },
+    "roi_zip": {
+      "zip_path": "data\\cbis_ddsm\\original\\series_zips\\1.3.6.1.4.1.9590.100.1.2.38355348211600094806469224183939342192.zip",
+      "zip_bytes": 109184,
+      "zip_sha256": "ad2d1b923dc6a68011d5d36733cc846a89e90a535060e27599fd27aa3fa53cb3"
+    },
+    "full_files": [
+      {
+        "name": "00000001.dcm",
+        "bytes": 19594788,
+        "md5_ok": true,
+        "patient_id": "Mass-Training_P_00009_RIGHT_CC",
+        "series_uid": "1.3.6.1.4.1.9590.100.1.2.392091931911637760938815694332198115839",
+        "sop_uid": "1.3.6.1.4.1.9590.100.1.2.194258849411092848026292238523588256282",
+        "instance_number": "1",
+        "series_description": "full mammogram images",
+        "rows": 4441,
+        "cols": 2206,
+        "bits_stored": 16,
+        "transfer_syntax": "1.2.840.10008.1.2",
+        "min": 0,
+        "max": 65534,
+        "unique_count": 11794
+      }
+    ],
+    "roi_files": [
+      {
+        "name": "00000001.dcm",
+        "bytes": 9797940,
+        "md5_ok": true,
+        "patient_id": "Mass-Training_P_00009_RIGHT_CC_1",
+        "series_uid": "1.3.6.1.4.1.9590.100.1.2.38355348211600094806469224183939342192",
+        "sop_uid": "1.3.6.1.4.1.9590.100.1.2.299949876612027418939280411363684194182",
+        "instance_number": "1",
+        "series_description": "ROI mask images",
+        "rows": 4441,
+        "cols": 2206,
+        "bits_stored": 8,
+        "transfer_syntax": "1.2.840.10008.1.2",
+        "min": 0,
+        "max": 255,
+        "unique_count": 2
+      },
+      {
+        "name": "00000002.dcm",
+        "bytes": 107172,
+        "md5_ok": true,
+        "patient_id": "Mass-Training_P_00009_RIGHT_CC_1",
+        "series_uid": "1.3.6.1.4.1.9590.100.1.2.38355348211600094806469224183939342192",
+        "sop_uid": "1.3.6.1.4.1.9590.100.1.2.36504387912473285800603984891453395369",
+        "instance_number": "1",
+        "series_description": "cropped images",
+        "rows": 221,
+        "cols": 240,
+        "bits_stored": 16,
+        "transfer_syntax": "1.2.840.10008.1.2",
+        "min": 43854,
+        "max": 65535,
+        "unique_count": 5904
+      }
+    ],
+    "mask_file": "00000001.dcm",
+    "crop_file": "00000002.dcm",
+    "bbox_xyxy_inclusive": [
+      485,
+      2176,
+      684,
+      2356
+    ],
+    "mask_area_pixels": 21007,
+    "mask_area_fraction": 0.002144261530700799,
+    "alignment_shape_ok": true,
+    "crop_smaller_than_full": true,
+    "overlay": "reports\\figures\\task02_P_00009_CC_overlay.png",
+    "status": "pass"
+  },
+  {
+    "patient_id": "P_00015",
+    "view": "MLO",
+    "laterality": "LEFT",
+    "abnormality_id": "1",
+    "pathology": "MALIGNANT",
+    "full_zip": {
+      "zip_path": "data\\cbis_ddsm\\original\\series_zips\\1.3.6.1.4.1.9590.100.1.2.399831242111800621220027542190666363688.zip",
+      "zip_bytes": 16551935,
+      "zip_sha256": "519a289c5d527a73553595e5fdc0c3e5529458a7a1560b9c0abd11fbae10debe"
+    },
+    "roi_zip": {
+      "zip_path": "data\\cbis_ddsm\\original\\series_zips\\1.3.6.1.4.1.9590.100.1.2.225307445711972492021703541080800178003.zip",
+      "zip_bytes": 149786,
+      "zip_sha256": "098013c961943aa3cc41dfe8ac1cd8bd6e335a2c94b50af238f56fd218eaa2fe"
+    },
+    "full_files": [
+      {
+        "name": "00000001.dcm",
+        "bytes": 44417098,
+        "md5_ok": true,
+        "patient_id": "Mass-Training_P_00015_LEFT_MLO",
+        "series_uid": "1.3.6.1.4.1.9590.100.1.2.399831242111800621220027542190666363688",
+        "sop_uid": "1.3.6.1.4.1.9590.100.1.2.377937144412764328609401294082902189022",
+        "instance_number": "1",
+        "series_description": "full mammogram images",
+        "rows": 5552,
+        "cols": 4000,
+        "bits_stored": 16,
+        "transfer_syntax": "1.2.840.10008.1.2",
+        "min": 0,
+        "max": 61714,
+        "unique_count": 2804
+      }
+    ],
+    "roi_files": [
+      {
+        "name": "00000001.dcm",
+        "bytes": 157294,
+        "md5_ok": true,
+        "patient_id": "Mass-Training_P_00015_LEFT_MLO_1",
+        "series_uid": "1.3.6.1.4.1.9590.100.1.2.225307445711972492021703541080800178003",
+        "sop_uid": "1.3.6.1.4.1.9590.100.1.2.118694229611729894330370812340965929428",
+        "instance_number": "1",
+        "series_description": "cropped images",
+        "rows": 275,
+        "cols": 284,
+        "bits_stored": 16,
+        "transfer_syntax": "1.2.840.10008.1.2",
+        "min": 32234,
+        "max": 65535,
+        "unique_count": 1100
+      },
+      {
+        "name": "00000002.dcm",
+        "bytes": 22209096,
+        "md5_ok": true,
+        "patient_id": "Mass-Training_P_00015_LEFT_MLO_1",
+        "series_uid": "1.3.6.1.4.1.9590.100.1.2.225307445711972492021703541080800178003",
+        "sop_uid": "1.3.6.1.4.1.9590.100.1.2.96114685012120635014023052100072968565",
+        "instance_number": "1",
+        "series_description": "ROI mask images",
+        "rows": 5552,
+        "cols": 4000,
+        "bits_stored": 8,
+        "transfer_syntax": "1.2.840.10008.1.2",
+        "min": 0,
+        "max": 255,
+        "unique_count": 2
+      }
+    ],
+    "mask_file": "00000002.dcm",
+    "crop_file": "00000001.dcm",
+    "bbox_xyxy_inclusive": [
+      601,
+      2322,
+      844,
+      2556
+    ],
+    "mask_area_pixels": 40488,
+    "mask_area_fraction": 0.0018231268011527377,
+    "alignment_shape_ok": true,
+    "crop_smaller_than_full": true,
+    "overlay": "reports\\figures\\task02_P_00015_MLO_overlay.png",
+    "status": "pass"
+  },
+  {
+    "patient_id": "P_00023",
+    "view": "MLO",
+    "laterality": "RIGHT",
+    "abnormality_id": "1",
+    "pathology": "MALIGNANT",
+    "full_zip": {
+      "zip_path": "data\\cbis_ddsm\\original\\series_zips\\1.3.6.1.4.1.9590.100.1.2.417639228911807576813743896492930957214.zip",
+      "zip_bytes": 25534749,
+      "zip_sha256": "a183d322b9fe298f874dc6f071900e186547e785366fe53042b3c936e94480fd"
+    },
+    "roi_zip": {
+      "zip_path": "data\\cbis_ddsm\\original\\series_zips\\1.3.6.1.4.1.9590.100.1.2.314636098012486843933844430364271144365.zip",
+      "zip_bytes": 124802,
+      "zip_sha256": "474a7f2a37b6be1e7b86ac9dd34a0b46a5cee73171defcd9087c102916df09c2"
+    },
+    "full_files": [
+      {
+        "name": "00000001.dcm",
+        "bytes": 39439674,
+        "md5_ok": true,
+        "patient_id": "Mass-Training_P_00023_RIGHT_MLO",
+        "series_uid": "1.3.6.1.4.1.9590.100.1.2.417639228911807576813743896492930957214",
+        "sop_uid": "1.3.6.1.4.1.9590.100.1.2.335282647213921311228078345262336688787",
+        "instance_number": "1",
+        "series_description": "full mammogram images",
+        "rows": 6001,
+        "cols": 3286,
+        "bits_stored": 16,
+        "transfer_syntax": "1.2.840.10008.1.2",
+        "min": 0,
+        "max": 65534,
+        "unique_count": 24416
+      }
+    ],
+    "roi_files": [
+      {
+        "name": "00000001.dcm",
+        "bytes": 19720386,
+        "md5_ok": true,
+        "patient_id": "Mass-Training_P_00023_RIGHT_MLO_1",
+        "series_uid": "1.3.6.1.4.1.9590.100.1.2.314636098012486843933844430364271144365",
+        "sop_uid": "1.3.6.1.4.1.9590.100.1.2.146101894013504685340287469432888236601",
+        "instance_number": "1",
+        "series_description": "ROI mask images",
+        "rows": 6001,
+        "cols": 3286,
+        "bits_stored": 8,
+        "transfer_syntax": "1.2.840.10008.1.2",
+        "min": 0,
+        "max": 255,
+        "unique_count": 2
+      },
+      {
+        "name": "00000002.dcm",
+        "bytes": 132462,
+        "md5_ok": true,
+        "patient_id": "Mass-Training_P_00023_RIGHT_MLO_1",
+        "series_uid": "1.3.6.1.4.1.9590.100.1.2.314636098012486843933844430364271144365",
+        "sop_uid": "1.3.6.1.4.1.9590.100.1.2.333055146313136349910217693902345508165",
+        "instance_number": "1",
+        "series_description": "cropped images",
+        "rows": 246,
+        "cols": 267,
+        "bits_stored": 16,
+        "transfer_syntax": "1.2.840.10008.1.2",
+        "min": 18940,
+        "max": 65535,
+        "unique_count": 1093
+      }
+    ],
+    "mask_file": "00000001.dcm",
+    "crop_file": "00000002.dcm",
+    "bbox_xyxy_inclusive": [
+      2304,
+      3251,
+      2530,
+      3456
+    ],
+    "mask_area_pixels": 26687,
+    "mask_area_fraction": 0.0013533451464723418,
+    "alignment_shape_ok": true,
+    "crop_smaller_than_full": true,
+    "overlay": "reports\\figures\\task02_P_00023_MLO_overlay.png",
+    "status": "pass"
+  },
+  {
+    "patient_id": "P_00004",
+    "view": "CC",
+    "laterality": "LEFT",
+    "abnormality_id": "1",
+    "pathology": "BENIGN",
+    "full_zip": {
+      "zip_path": "data\\cbis_ddsm\\original\\series_zips\\1.3.6.1.4.1.9590.100.1.2.89180046211022531834352631483669346540.zip",
+      "zip_bytes": 12214111,
+      "zip_sha256": "5a964a5f2a30332cf1e191d360c9c4c10ac4d75302dfbd5abaca59dd65c277ad"
+    },
+    "roi_zip": {
+      "zip_path": "data\\cbis_ddsm\\original\\series_zips\\1.3.6.1.4.1.9590.100.1.2.429120414011832984817094399141838850375.zip",
+      "zip_bytes": 300505,
+      "zip_sha256": "155dca4154590f9f966426c4a502be74e9a8f20ec30ab0bae4f3b65788ed80a9"
+    },
+    "full_files": [
+      {
+        "name": "00000001.dcm",
+        "bytes": 32793348,
+        "md5_ok": true,
+        "patient_id": "Mass-Training_P_00004_LEFT_CC",
+        "series_uid": "1.3.6.1.4.1.9590.100.1.2.89180046211022531834352631483669346540",
+        "sop_uid": "1.3.6.1.4.1.9590.100.1.2.358480630813132072812841219952338956181",
+        "instance_number": "1",
+        "series_description": "full mammogram images",
+        "rows": 5491,
+        "cols": 2986,
+        "bits_stored": 16,
+        "transfer_syntax": "1.2.840.10008.1.2",
+        "min": 0,
+        "max": 65535,
+        "unique_count": 2969
+      }
+    ],
+    "roi_files": [
+      {
+        "name": "00000001.dcm",
+        "bytes": 16397220,
+        "md5_ok": true,
+        "patient_id": "Mass-Training_P_00004_LEFT_CC_1",
+        "series_uid": "1.3.6.1.4.1.9590.100.1.2.429120414011832984817094399141838850375",
+        "sop_uid": "1.3.6.1.4.1.9590.100.1.2.331529169412334343305525853841491837811",
+        "instance_number": "1",
+        "series_description": "ROI mask images",
+        "rows": 5491,
+        "cols": 2986,
+        "bits_stored": 8,
+        "transfer_syntax": "1.2.840.10008.1.2",
+        "min": 0,
+        "max": 255,
+        "unique_count": 2
+      },
+      {
+        "name": "00000002.dcm",
+        "bytes": 395328,
+        "md5_ok": true,
+        "patient_id": "Mass-Training_P_00004_LEFT_CC_1",
+        "series_uid": "1.3.6.1.4.1.9590.100.1.2.429120414011832984817094399141838850375",
+        "sop_uid": "1.3.6.1.4.1.9590.100.1.2.78380405713377106014029024211235681737",
+        "instance_number": "1",
+        "series_description": "cropped images",
+        "rows": 466,
+        "cols": 423,
+        "bits_stored": 16,
+        "transfer_syntax": "1.2.840.10008.1.2",
+        "min": 39416,
+        "max": 65535,
+        "unique_count": 878
+      }
+    ],
+    "mask_file": "00000001.dcm",
+    "crop_file": "00000002.dcm",
+    "bbox_xyxy_inclusive": [
+      1417,
+      3500,
+      1799,
+      3925
+    ],
+    "mask_area_pixels": 113289,
+    "mask_area_fraction": 0.006909498011908423,
+    "alignment_shape_ok": true,
+    "crop_smaller_than_full": true,
+    "overlay": "reports\\figures\\task02_P_00004_CC_overlay.png",
+    "status": "pass"
+  },
+  {
+    "patient_id": "P_00018",
+    "view": "CC",
+    "laterality": "RIGHT",
+    "abnormality_id": "1",
+    "pathology": "BENIGN",
+    "full_zip": {
+      "zip_path": "data\\cbis_ddsm\\original\\series_zips\\1.3.6.1.4.1.9590.100.1.2.353764633213863442442494539840710764601.zip",
+      "zip_bytes": 8225652,
+      "zip_sha256": "a1fcf02cbdc400f91b1840e3b96aafd0513d6cec3593bc7afc2a46a7a7488e55"
+    },
+    "roi_zip": {
+      "zip_path": "data\\cbis_ddsm\\original\\series_zips\\1.3.6.1.4.1.9590.100.1.2.393707185513959554524123170961270881067.zip",
+      "zip_bytes": 179400,
+      "zip_sha256": "4053e6f16fd30f88de824d6e6870f175a77402f95c06812e59fd349606b45f9c"
+    },
+    "full_files": [
+      {
+        "name": "00000001.dcm",
+        "bytes": 24394056,
+        "md5_ok": true,
+        "patient_id": "Mass-Training_P_00018_RIGHT_CC",
+        "series_uid": "1.3.6.1.4.1.9590.100.1.2.353764633213863442442494539840710764601",
+        "sop_uid": "1.3.6.1.4.1.9590.100.1.2.182827685011807375537730530650857157062",
+        "instance_number": "1",
+        "series_description": "full mammogram images",
+        "rows": 4720,
+        "cols": 2584,
+        "bits_stored": 16,
+        "transfer_syntax": "1.2.840.10008.1.2",
+        "min": 0,
+        "max": 65535,
+        "unique_count": 2814
+      }
+    ],
+    "roi_files": [
+      {
+        "name": "00000001.dcm",
+        "bytes": 12197574,
+        "md5_ok": true,
+        "patient_id": "Mass-Training_P_00018_RIGHT_CC_1",
+        "series_uid": "1.3.6.1.4.1.9590.100.1.2.393707185513959554524123170961270881067",
+        "sop_uid": "1.3.6.1.4.1.9590.100.1.2.237605400111153853333436719893255537361",
+        "instance_number": "1",
+        "series_description": "ROI mask images",
+        "rows": 4720,
+        "cols": 2584,
+        "bits_stored": 8,
+        "transfer_syntax": "1.2.840.10008.1.2",
+        "min": 0,
+        "max": 255,
+        "unique_count": 2
+      },
+      {
+        "name": "00000002.dcm",
+        "bytes": 211620,
+        "md5_ok": true,
+        "patient_id": "Mass-Training_P_00018_RIGHT_CC_1",
+        "series_uid": "1.3.6.1.4.1.9590.100.1.2.393707185513959554524123170961270881067",
+        "sop_uid": "1.3.6.1.4.1.9590.100.1.2.191766943310062080416662229810179420246",
+        "instance_number": "1",
+        "series_description": "cropped images",
+        "rows": 306,
+        "cols": 344,
+        "bits_stored": 16,
+        "transfer_syntax": "1.2.840.10008.1.2",
+        "min": 28207,
+        "max": 65535,
+        "unique_count": 1192
+      }
+    ],
+    "mask_file": "00000001.dcm",
+    "crop_file": "00000002.dcm",
+    "bbox_xyxy_inclusive": [
+      1894,
+      1388,
+      2197,
+      1653
+    ],
+    "mask_area_pixels": 53250,
+    "mask_area_fraction": 0.004366013800703153,
+    "alignment_shape_ok": true,
+    "crop_smaller_than_full": true,
+    "overlay": "reports\\figures\\task02_P_00018_CC_overlay.png",
+    "status": "pass"
+  },
+  {
+    "patient_id": "P_00021",
+    "view": "MLO",
+    "laterality": "LEFT",
+    "abnormality_id": "1",
+    "pathology": "BENIGN",
+    "full_zip": {
+      "zip_path": "data\\cbis_ddsm\\original\\series_zips\\1.3.6.1.4.1.9590.100.1.2.369287458813355648611939058220166307923.zip",
+      "zip_bytes": 11585298,
+      "zip_sha256": "8a73941dfffd9efb8450bdfa25af8d8b0ca538bf6c4d927c8900a20c0e835118"
+    },
+    "roi_zip": {
+      "zip_path": "data\\cbis_ddsm\\original\\series_zips\\1.3.6.1.4.1.9590.100.1.2.42615123112846587420486229992978116905.zip",
+      "zip_bytes": 138207,
+      "zip_sha256": "7ca4067d7936f8bb8613ae55a90c8fef0ddc75739fc33ecec7a81d34913abba5"
+    },
+    "full_files": [
+      {
+        "name": "00000001.dcm",
+        "bytes": 26020938,
+        "md5_ok": true,
+        "patient_id": "Mass-Training_P_00021_LEFT_MLO",
+        "series_uid": "1.3.6.1.4.1.9590.100.1.2.369287458813355648611939058220166307923",
+        "sop_uid": "1.3.6.1.4.1.9590.100.1.2.26063469210056886731557090970259497854",
+        "instance_number": "1",
+        "series_description": "full mammogram images",
+        "rows": 4480,
+        "cols": 2904,
+        "bits_stored": 16,
+        "transfer_syntax": "1.2.840.10008.1.2",
+        "min": 0,
+        "max": 65535,
+        "unique_count": 2756
+      }
+    ],
+    "roi_files": [
+      {
+        "name": "00000001.dcm",
+        "bytes": 142364,
+        "md5_ok": true,
+        "patient_id": "Mass-Training_P_00021_LEFT_MLO_1",
+        "series_uid": "1.3.6.1.4.1.9590.100.1.2.42615123112846587420486229992978116905",
+        "sop_uid": "1.3.6.1.4.1.9590.100.1.2.216280188810871950326969870523771644874",
+        "instance_number": "1",
+        "series_description": "cropped images",
+        "rows": 255,
+        "cols": 277,
+        "bits_stored": 16,
+        "transfer_syntax": "1.2.840.10008.1.2",
+        "min": 10831,
+        "max": 65535,
+        "unique_count": 1527
+      },
+      {
+        "name": "00000002.dcm",
+        "bytes": 13011016,
+        "md5_ok": true,
+        "patient_id": "Mass-Training_P_00021_LEFT_MLO_1",
+        "series_uid": "1.3.6.1.4.1.9590.100.1.2.42615123112846587420486229992978116905",
+        "sop_uid": "1.3.6.1.4.1.9590.100.1.2.24438963310852469708060448341174926484",
+        "instance_number": "1",
+        "series_description": "ROI mask images",
+        "rows": 4480,
+        "cols": 2904,
+        "bits_stored": 8,
+        "transfer_syntax": "1.2.840.10008.1.2",
+        "min": 0,
+        "max": 255,
+        "unique_count": 2
+      }
+    ],
+    "mask_file": "00000002.dcm",
+    "crop_file": "00000001.dcm",
+    "bbox_xyxy_inclusive": [
+      1449,
+      2123,
+      1685,
+      2337
+    ],
+    "mask_area_pixels": 31033,
+    "mask_area_fraction": 0.002385333653089335,
+    "alignment_shape_ok": true,
+    "crop_smaller_than_full": true,
+    "overlay": "reports\\figures\\task02_P_00021_MLO_overlay.png",
+    "status": "pass"
+  },
+  {
+    "patient_id": "P_00026",
+    "view": "MLO",
+    "laterality": "LEFT",
+    "abnormality_id": "1",
+    "pathology": "BENIGN",
+    "full_zip": {
+      "zip_path": "data\\cbis_ddsm\\original\\series_zips\\1.3.6.1.4.1.9590.100.1.2.108774078613788646228188307731057957441.zip",
+      "zip_bytes": 22492133,
+      "zip_sha256": "ec7aed3fdf9000ffb70fce500d466aa897fcb1eeb61695fa6171a206d4fd94c9"
+    },
+    "roi_zip": {
+      "zip_path": "data\\cbis_ddsm\\original\\series_zips\\1.3.6.1.4.1.9590.100.1.2.255440158212643374936099923381215494528.zip",
+      "zip_bytes": 116656,
+      "zip_sha256": "c5d635620c17120500ebce333e913ff42529f3c6a187eda716175e8e49370e8f"
+    },
+    "full_files": [
+      {
+        "name": "00000001.dcm",
+        "bytes": 45683810,
+        "md5_ok": true,
+        "patient_id": "Mass-Training_P_00026_LEFT_MLO",
+        "series_uid": "1.3.6.1.4.1.9590.100.1.2.108774078613788646228188307731057957441",
+        "sop_uid": "1.3.6.1.4.1.9590.100.1.2.34123674212977953922762720173305959463",
+        "instance_number": "1",
+        "series_description": "full mammogram images",
+        "rows": 6796,
+        "cols": 3361,
+        "bits_stored": 16,
+        "transfer_syntax": "1.2.840.10008.1.2",
+        "min": 0,
+        "max": 65535,
+        "unique_count": 2969
+      }
+    ],
+    "roi_files": [
+      {
+        "name": "00000001.dcm",
+        "bytes": 134194,
+        "md5_ok": true,
+        "patient_id": "Mass-Training_P_00026_LEFT_MLO_1",
+        "series_uid": "1.3.6.1.4.1.9590.100.1.2.255440158212643374936099923381215494528",
+        "sop_uid": "1.3.6.1.4.1.9590.100.1.2.363489590610696350800004635273852069309",
+        "instance_number": "1",
+        "series_description": "cropped images",
+        "rows": 242,
+        "cols": 275,
+        "bits_stored": 16,
+        "transfer_syntax": "1.2.840.10008.1.2",
+        "min": 44046,
+        "max": 65535,
+        "unique_count": 670
+      },
+      {
+        "name": "00000002.dcm",
+        "bytes": 22842452,
+        "md5_ok": true,
+        "patient_id": "Mass-Training_P_00026_LEFT_MLO_1",
+        "series_uid": "1.3.6.1.4.1.9590.100.1.2.255440158212643374936099923381215494528",
+        "sop_uid": "1.3.6.1.4.1.9590.100.1.2.311825189412704754418679766071366039413",
+        "instance_number": "1",
+        "series_description": "ROI mask images",
+        "rows": 6796,
+        "cols": 3361,
+        "bits_stored": 8,
+        "transfer_syntax": "1.2.840.10008.1.2",
+        "min": 0,
+        "max": 255,
+        "unique_count": 2
+      }
+    ],
+    "mask_file": "00000002.dcm",
+    "crop_file": "00000001.dcm",
+    "bbox_xyxy_inclusive": [
+      1986,
+      4175,
+      2220,
+      4376
+    ],
+    "mask_area_pixels": 32931,
+    "mask_area_fraction": 0.001441727014805951,
+    "alignment_shape_ok": true,
+    "crop_smaller_than_full": true,
+    "overlay": "reports\\figures\\task02_P_00026_MLO_overlay.png",
+    "status": "pass"
+  },
+  {
+    "patient_id": "P_00041",
+    "view": "CC",
+    "laterality": "LEFT",
+    "abnormality_id": "1",
+    "pathology": "BENIGN_WITHOUT_CALLBACK",
+    "full_zip": {
+      "zip_path": "data\\cbis_ddsm\\original\\series_zips\\1.3.6.1.4.1.9590.100.1.2.345718135710333764616119469392727175992.zip",
+      "zip_bytes": 18379167,
+      "zip_sha256": "b729dd45315ea871aa16c6e0f1f74da133bd4831c2c2c94ede6a1cc71ecdfb43"
+    },
+    "roi_zip": {
+      "zip_path": "data\\cbis_ddsm\\original\\series_zips\\1.3.6.1.4.1.9590.100.1.2.60163734712612164127719274822853034962.zip",
+      "zip_bytes": 86574,
+      "zip_sha256": "dcb41b6b36e5219b936d875e6cbe2a10ac1e793b882c9ee9aeff8e2587ff8550"
+    },
+    "full_files": [
+      {
+        "name": "00000001.dcm",
+        "bytes": 45131848,
+        "md5_ok": true,
+        "patient_id": "Mass-Training_P_00041_LEFT_CC",
+        "series_uid": "1.3.6.1.4.1.9590.100.1.2.345718135710333764616119469392727175992",
+        "sop_uid": "1.3.6.1.4.1.9590.100.1.2.295546580011900754626267385683118174792",
+        "instance_number": "1",
+        "series_description": "full mammogram images",
+        "rows": 5664,
+        "cols": 3984,
+        "bits_stored": 16,
+        "transfer_syntax": "1.2.840.10008.1.2",
+        "min": 0,
+        "max": 65535,
+        "unique_count": 2850
+      }
+    ],
+    "roi_files": [
+      {
+        "name": "00000001.dcm",
+        "bytes": 77742,
+        "md5_ok": true,
+        "patient_id": "Mass-Training_P_00041_LEFT_CC_1",
+        "series_uid": "1.3.6.1.4.1.9590.100.1.2.60163734712612164127719274822853034962",
+        "sop_uid": "1.3.6.1.4.1.9590.100.1.2.271518465913681168713146028880434497529",
+        "instance_number": "1",
+        "series_description": "cropped images",
+        "rows": 175,
+        "cols": 219,
+        "bits_stored": 16,
+        "transfer_syntax": "1.2.840.10008.1.2",
+        "min": 31568,
+        "max": 65535,
+        "unique_count": 679
+      },
+      {
+        "name": "00000002.dcm",
+        "bytes": 22566470,
+        "md5_ok": true,
+        "patient_id": "Mass-Training_P_00041_LEFT_CC_1",
+        "series_uid": "1.3.6.1.4.1.9590.100.1.2.60163734712612164127719274822853034962",
+        "sop_uid": "1.3.6.1.4.1.9590.100.1.2.176755444512134642942482036862908859894",
+        "instance_number": "1",
+        "series_description": "ROI mask images",
+        "rows": 5664,
+        "cols": 3984,
+        "bits_stored": 8,
+        "transfer_syntax": "1.2.840.10008.1.2",
+        "min": 0,
+        "max": 255,
+        "unique_count": 2
+      }
+    ],
+    "mask_file": "00000002.dcm",
+    "crop_file": "00000001.dcm",
+    "bbox_xyxy_inclusive": [
+      1623,
+      1175,
+      1801,
+      1309
+    ],
+    "mask_area_pixels": 14438,
+    "mask_area_fraction": 0.0006398297994236835,
+    "alignment_shape_ok": true,
+    "crop_smaller_than_full": true,
+    "overlay": "reports\\figures\\task02_P_00041_CC_overlay.png",
+    "status": "pass"
+  },
+  {
+    "patient_id": "P_00106",
+    "view": "CC",
+    "laterality": "LEFT",
+    "abnormality_id": "1",
+    "pathology": "BENIGN_WITHOUT_CALLBACK",
+    "full_zip": {
+      "zip_path": "data\\cbis_ddsm\\original\\series_zips\\1.3.6.1.4.1.9590.100.1.2.180117656012441206012066533421449364027.zip",
+      "zip_bytes": 17424584,
+      "zip_sha256": "a2f359baea063e8f0590138211790598ec46bf6173d874c77cfa6c7bfe2621d9"
+    },
+    "roi_zip": {
+      "zip_path": "data\\cbis_ddsm\\original\\series_zips\\1.3.6.1.4.1.9590.100.1.2.109903439411410088111451455240257303269.zip",
+      "zip_bytes": 55000,
+      "zip_sha256": "0b880fb82367adf561e11d6836cd90d0e1abb3da78cee53c2de6f87c9aaad59c"
+    },
+    "full_files": [
+      {
+        "name": "00000001.dcm",
+        "bytes": 45034056,
+        "md5_ok": true,
+        "patient_id": "Mass-Training_P_00106_LEFT_CC",
+        "series_uid": "1.3.6.1.4.1.9590.100.1.2.180117656012441206012066533421449364027",
+        "sop_uid": "1.3.6.1.4.1.9590.100.1.2.12269418012769299616259575143197283545",
+        "instance_number": "1",
+        "series_description": "full mammogram images",
+        "rows": 5744,
+        "cols": 3920,
+        "bits_stored": 16,
+        "transfer_syntax": "1.2.840.10008.1.2",
+        "min": 0,
+        "max": 65535,
+        "unique_count": 2978
+      }
+    ],
+    "roi_files": [
+      {
+        "name": "00000001.dcm",
+        "bytes": 41346,
+        "md5_ok": true,
+        "patient_id": "Mass-Training_P_00106_LEFT_CC_1",
+        "series_uid": "1.3.6.1.4.1.9590.100.1.2.109903439411410088111451455240257303269",
+        "sop_uid": "1.3.6.1.4.1.9590.100.1.2.355553633412266942107379775043648504642",
+        "instance_number": "1",
+        "series_description": "cropped images",
+        "rows": 148,
+        "cols": 136,
+        "bits_stored": 16,
+        "transfer_syntax": "1.2.840.10008.1.2",
+        "min": 48926,
+        "max": 65535,
+        "unique_count": 452
+      },
+      {
+        "name": "00000002.dcm",
+        "bytes": 22517572,
+        "md5_ok": true,
+        "patient_id": "Mass-Training_P_00106_LEFT_CC_1",
+        "series_uid": "1.3.6.1.4.1.9590.100.1.2.109903439411410088111451455240257303269",
+        "sop_uid": "1.3.6.1.4.1.9590.100.1.2.280370185512704681339287458860282202763",
+        "instance_number": "1",
+        "series_description": "ROI mask images",
+        "rows": 5744,
+        "cols": 3920,
+        "bits_stored": 8,
+        "transfer_syntax": "1.2.840.10008.1.2",
+        "min": 0,
+        "max": 255,
+        "unique_count": 2
+      }
+    ],
+    "mask_file": "00000002.dcm",
+    "crop_file": "00000001.dcm",
+    "bbox_xyxy_inclusive": [
+      65,
+      1091,
+      160,
+      1198
+    ],
+    "mask_area_pixels": 5797,
+    "mask_area_fraction": 0.00025745587232107325,
+    "alignment_shape_ok": true,
+    "crop_smaller_than_full": true,
+    "overlay": "reports\\figures\\task02_P_00106_CC_overlay.png",
+    "status": "pass"
+  },
+  {
+    "patient_id": "P_00054",
+    "view": "MLO",
+    "laterality": "RIGHT",
+    "abnormality_id": "1",
+    "pathology": "BENIGN_WITHOUT_CALLBACK",
+    "full_zip": {
+      "zip_path": "data\\cbis_ddsm\\original\\series_zips\\1.3.6.1.4.1.9590.100.1.2.71142001913594554509299523963960662855.zip",
+      "zip_bytes": 8428841,
+      "zip_sha256": "72b0f986bbbdf232cf3a0eec05dcc3f4e24e4fc51bca5dadb2e1f5ce2f93b95e"
+    },
+    "roi_zip": {
+      "zip_path": "data\\cbis_ddsm\\original\\series_zips\\1.3.6.1.4.1.9590.100.1.2.147482114012307911938186633001212085130.zip",
+      "zip_bytes": 129746,
+      "zip_sha256": "09a5c76a9817d4a2e0eddcc6a5f71aff336c891b0ac7569c0bdcba2f59a43601"
+    },
+    "full_files": [
+      {
+        "name": "00000001.dcm",
+        "bytes": 26397902,
+        "md5_ok": true,
+        "patient_id": "Mass-Training_P_00054_RIGHT_MLO",
+        "series_uid": "1.3.6.1.4.1.9590.100.1.2.71142001913594554509299523963960662855",
+        "sop_uid": "1.3.6.1.4.1.9590.100.1.2.106316799512593150926059119651629303830",
+        "instance_number": "1",
+        "series_description": "full mammogram images",
+        "rows": 4520,
+        "cols": 2920,
+        "bits_stored": 16,
+        "transfer_syntax": "1.2.840.10008.1.2",
+        "min": 0,
+        "max": 65535,
+        "unique_count": 2978
+      }
+    ],
+    "roi_files": [
+      {
+        "name": "00000001.dcm",
+        "bytes": 154964,
+        "md5_ok": true,
+        "patient_id": "Mass-Training_P_00054_RIGHT_MLO_1",
+        "series_uid": "1.3.6.1.4.1.9590.100.1.2.147482114012307911938186633001212085130",
+        "sop_uid": "1.3.6.1.4.1.9590.100.1.2.29147537311333712426300010812427187572",
+        "instance_number": "1",
+        "series_description": "cropped images",
+        "rows": 286,
+        "cols": 269,
+        "bits_stored": 16,
+        "transfer_syntax": "1.2.840.10008.1.2",
+        "min": 43318,
+        "max": 65535,
+        "unique_count": 585
+      },
+      {
+        "name": "00000002.dcm",
+        "bytes": 13199498,
+        "md5_ok": true,
+        "patient_id": "Mass-Training_P_00054_RIGHT_MLO_1",
+        "series_uid": "1.3.6.1.4.1.9590.100.1.2.147482114012307911938186633001212085130",
+        "sop_uid": "1.3.6.1.4.1.9590.100.1.2.257395081311486430524065954920118947058",
+        "instance_number": "1",
+        "series_description": "ROI mask images",
+        "rows": 4520,
+        "cols": 2920,
+        "bits_stored": 8,
+        "transfer_syntax": "1.2.840.10008.1.2",
+        "min": 0,
+        "max": 255,
+        "unique_count": 2
+      }
+    ],
+    "mask_file": "00000002.dcm",
+    "crop_file": "00000001.dcm",
+    "bbox_xyxy_inclusive": [
+      2504,
+      2869,
+      2732,
+      3114
+    ],
+    "mask_area_pixels": 35290,
+    "mask_area_fraction": 0.0026738089465389745,
+    "alignment_shape_ok": true,
+    "crop_smaller_than_full": true,
+    "overlay": "reports\\figures\\task02_P_00054_MLO_overlay.png",
+    "status": "pass"
+  },
+  {
+    "patient_id": "P_00064",
+    "view": "MLO",
+    "laterality": "RIGHT",
+    "abnormality_id": "1",
+    "pathology": "BENIGN_WITHOUT_CALLBACK",
+    "full_zip": {
+      "zip_path": "data\\cbis_ddsm\\original\\series_zips\\1.3.6.1.4.1.9590.100.1.2.222490301911728266815742260480398367605.zip",
+      "zip_bytes": 12007363,
+      "zip_sha256": "235fd1efa29d2476178fd688da5dea496004228a4239eb626c87481e683c30c0"
+    },
+    "roi_zip": {
+      "zip_path": "data\\cbis_ddsm\\original\\series_zips\\1.3.6.1.4.1.9590.100.1.2.248115994912525429104448387842986945186.zip",
+      "zip_bytes": 482955,
+      "zip_sha256": "07701efb96635e4782308bc5db1c57d02b2e1fe95dd83507b3189e9c0461e982"
+    },
+    "full_files": [
+      {
+        "name": "00000001.dcm",
+        "bytes": 25828942,
+        "md5_ok": true,
+        "patient_id": "Mass-Training_P_00064_RIGHT_MLO",
+        "series_uid": "1.3.6.1.4.1.9590.100.1.2.222490301911728266815742260480398367605",
+        "sop_uid": "1.3.6.1.4.1.9590.100.1.2.160915787510485365830503614943211065871",
+        "instance_number": "1",
+        "series_description": "full mammogram images",
+        "rows": 4560,
+        "cols": 2832,
+        "bits_stored": 16,
+        "transfer_syntax": "1.2.840.10008.1.2",
+        "min": 0,
+        "max": 61097,
+        "unique_count": 2766
+      }
+    ],
+    "roi_files": [
+      {
+        "name": "00000001.dcm",
+        "bytes": 12915020,
+        "md5_ok": true,
+        "patient_id": "Mass-Training_P_00064_RIGHT_MLO_1",
+        "series_uid": "1.3.6.1.4.1.9590.100.1.2.248115994912525429104448387842986945186",
+        "sop_uid": "1.3.6.1.4.1.9590.100.1.2.370436922612150574501860507162385510655",
+        "instance_number": "1",
+        "series_description": "ROI mask images",
+        "rows": 4560,
+        "cols": 2832,
+        "bits_stored": 8,
+        "transfer_syntax": "1.2.840.10008.1.2",
+        "min": 0,
+        "max": 255,
+        "unique_count": 2
+      },
+      {
+        "name": "00000002.dcm",
+        "bytes": 606378,
+        "md5_ok": true,
+        "patient_id": "Mass-Training_P_00064_RIGHT_MLO_1",
+        "series_uid": "1.3.6.1.4.1.9590.100.1.2.248115994912525429104448387842986945186",
+        "sop_uid": "1.3.6.1.4.1.9590.100.1.2.409692602512023535615233266243936950775",
+        "instance_number": "1",
+        "series_description": "cropped images",
+        "rows": 520,
+        "cols": 582,
+        "bits_stored": 16,
+        "transfer_syntax": "1.2.840.10008.1.2",
+        "min": 28222,
+        "max": 65535,
+        "unique_count": 1284
+      }
+    ],
+    "mask_file": "00000001.dcm",
+    "crop_file": "00000002.dcm",
+    "bbox_xyxy_inclusive": [
+      1857,
+      1439,
+      2398,
+      1918
+    ],
+    "mask_area_pixels": 175390,
+    "mask_area_fraction": 0.013581468678759045,
+    "alignment_shape_ok": true,
+    "crop_smaller_than_full": true,
+    "overlay": "reports\\figures\\task02_P_00064_MLO_overlay.png",
+    "status": "pass"
+  }
+]

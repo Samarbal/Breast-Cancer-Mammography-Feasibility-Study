@@ -1,0 +1,669 @@
+{
+  "method": "fresh subprocess per case; cached files; CPU-only in-memory preprocessing",
+  "python": "3.13.14 (main, Jul 18 2026, 17:10:39) [MSC v.1944 64 bit (AMD64)]",
+  "pydicom": "3.0.2",
+  "numpy": "2.5.4",
+  "pillow": "13.0.0",
+  "cases": [
+    {
+      "patient_id": "P_00001",
+      "view": "CC",
+      "pathology": "MALIGNANT",
+      "full_shape_hw": [
+        4808,
+        3024
+      ],
+      "crop_shape_hw": [
+        515,
+        431
+      ],
+      "mask_unique_values": [
+        0,
+        255
+      ],
+      "mask_area_pixels": 120561,
+      "mask_fraction": 0.008292024865964134,
+      "bbox_xyxy_inclusive": [
+        270,
+        2422,
+        660,
+        2896
+      ],
+      "resized_shape_hw": [
+        1024,
+        644
+      ],
+      "resized_mask_area_pixels": 5438,
+      "resized_bbox_xyxy_inclusive": [
+        58,
+        516,
+        139,
+        616
+      ],
+      "resized_bbox_max_projection_delta_px": 2,
+      "intensity_window_p1_p995": [
+        595.0,
+        65535.0
+      ],
+      "timings_seconds": {
+        "zip_and_dicom_read": 0.1344946000026539,
+        "pixel_decode": 0.014468599983956665,
+        "mask_and_bbox_check": 0.09497350000310689,
+        "normalize_and_resize": 0.27830599999288097,
+        "total": 0.5222426999825984
+      },
+      "memory_bytes": {
+        "baseline_working_set": 44089344,
+        "after_decode_working_set": 192614400,
+        "after_preprocess_working_set": 221765632,
+        "process_peak_working_set": 436862976
+      },
+      "status": "pass"
+    },
+    {
+      "patient_id": "P_00009",
+      "view": "CC",
+      "pathology": "MALIGNANT",
+      "full_shape_hw": [
+        4441,
+        2206
+      ],
+      "crop_shape_hw": [
+        221,
+        240
+      ],
+      "mask_unique_values": [
+        0,
+        255
+      ],
+      "mask_area_pixels": 21007,
+      "mask_fraction": 0.002144261530700799,
+      "bbox_xyxy_inclusive": [
+        485,
+        2176,
+        684,
+        2356
+      ],
+      "resized_shape_hw": [
+        1024,
+        509
+      ],
+      "resized_mask_area_pixels": 1126,
+      "resized_bbox_xyxy_inclusive": [
+        112,
+        502,
+        156,
+        542
+      ],
+      "resized_bbox_max_projection_delta_px": 2,
+      "intensity_window_p1_p995": [
+        676.0,
+        49307.0
+      ],
+      "timings_seconds": {
+        "zip_and_dicom_read": 0.07677839999087155,
+        "pixel_decode": 0.007502899970859289,
+        "mask_and_bbox_check": 0.0637155000003986,
+        "normalize_and_resize": 0.15641300001880154,
+        "total": 0.304409799980931
+      },
+      "memory_bytes": {
+        "baseline_working_set": 44216320,
+        "after_decode_working_set": 144515072,
+        "after_preprocess_working_set": 165105664,
+        "process_peak_working_set": 309768192
+      },
+      "status": "pass"
+    },
+    {
+      "patient_id": "P_00015",
+      "view": "MLO",
+      "pathology": "MALIGNANT",
+      "full_shape_hw": [
+        5552,
+        4000
+      ],
+      "crop_shape_hw": [
+        275,
+        284
+      ],
+      "mask_unique_values": [
+        0,
+        255
+      ],
+      "mask_area_pixels": 40488,
+      "mask_fraction": 0.0018231268011527377,
+      "bbox_xyxy_inclusive": [
+        601,
+        2322,
+        844,
+        2556
+      ],
+      "resized_shape_hw": [
+        1024,
+        738
+      ],
+      "resized_mask_area_pixels": 1377,
+      "resized_bbox_xyxy_inclusive": [
+        111,
+        428,
+        155,
+        470
+      ],
+      "resized_bbox_max_projection_delta_px": 1,
+      "intensity_window_p1_p995": [
+        551.0,
+        60084.0
+      ],
+      "timings_seconds": {
+        "zip_and_dicom_read": 0.16072659997735173,
+        "pixel_decode": 0.010853300045710057,
+        "mask_and_bbox_check": 0.12957509997067973,
+        "normalize_and_resize": 0.5754308000323363,
+        "total": 0.8765858000260778
+      },
+      "memory_bytes": {
+        "baseline_working_set": 44290048,
+        "after_decode_working_set": 269017088,
+        "after_preprocess_working_set": 310550528,
+        "process_peak_working_set": 641675264
+      },
+      "status": "pass"
+    },
+    {
+      "patient_id": "P_00023",
+      "view": "MLO",
+      "pathology": "MALIGNANT",
+      "full_shape_hw": [
+        6001,
+        3286
+      ],
+      "crop_shape_hw": [
+        246,
+        267
+      ],
+      "mask_unique_values": [
+        0,
+        255
+      ],
+      "mask_area_pixels": 26687,
+      "mask_fraction": 0.0013533451464723418,
+      "bbox_xyxy_inclusive": [
+        2304,
+        3251,
+        2530,
+        3456
+      ],
+      "resized_shape_hw": [
+        1024,
+        561
+      ],
+      "resized_mask_area_pixels": 775,
+      "resized_bbox_xyxy_inclusive": [
+        393,
+        555,
+        431,
+        589
+      ],
+      "resized_bbox_max_projection_delta_px": 1,
+      "intensity_window_p1_p995": [
+        455.0,
+        60729.0
+      ],
+      "timings_seconds": {
+        "zip_and_dicom_read": 0.20251249999273568,
+        "pixel_decode": 0.012720900005660951,
+        "mask_and_bbox_check": 0.10999089997494593,
+        "normalize_and_resize": 0.41251890000421554,
+        "total": 0.7377431999775581
+      },
+      "memory_bytes": {
+        "baseline_working_set": 44023808,
+        "after_decode_working_set": 243871744,
+        "after_preprocess_working_set": 296620032,
+        "process_peak_working_set": 589787136
+      },
+      "status": "pass"
+    },
+    {
+      "patient_id": "P_00004",
+      "view": "CC",
+      "pathology": "BENIGN",
+      "full_shape_hw": [
+        5491,
+        2986
+      ],
+      "crop_shape_hw": [
+        466,
+        423
+      ],
+      "mask_unique_values": [
+        0,
+        255
+      ],
+      "mask_area_pixels": 113289,
+      "mask_fraction": 0.006909498011908423,
+      "bbox_xyxy_inclusive": [
+        1417,
+        3500,
+        1799,
+        3925
+      ],
+      "resized_shape_hw": [
+        1024,
+        557
+      ],
+      "resized_mask_area_pixels": 3939,
+      "resized_bbox_xyxy_inclusive": [
+        265,
+        653,
+        334,
+        731
+      ],
+      "resized_bbox_max_projection_delta_px": 2,
+      "intensity_window_p1_p995": [
+        1337.0,
+        65535.0
+      ],
+      "timings_seconds": {
+        "zip_and_dicom_read": 0.16528700001072139,
+        "pixel_decode": 0.013440299953799695,
+        "mask_and_bbox_check": 0.09821710002142936,
+        "normalize_and_resize": 0.2767364000319503,
+        "total": 0.5536808000179008
+      },
+      "memory_bytes": {
+        "baseline_working_set": 44171264,
+        "after_decode_working_set": 211095552,
+        "after_preprocess_working_set": 245272576,
+        "process_peak_working_set": 489197568
+      },
+      "status": "pass"
+    },
+    {
+      "patient_id": "P_00018",
+      "view": "CC",
+      "pathology": "BENIGN",
+      "full_shape_hw": [
+        4720,
+        2584
+      ],
+      "crop_shape_hw": [
+        306,
+        344
+      ],
+      "mask_unique_values": [
+        0,
+        255
+      ],
+      "mask_area_pixels": 53250,
+      "mask_fraction": 0.004366013800703153,
+      "bbox_xyxy_inclusive": [
+        1894,
+        1388,
+        2197,
+        1653
+      ],
+      "resized_shape_hw": [
+        1024,
+        561
+      ],
+      "resized_mask_area_pixels": 2513,
+      "resized_bbox_xyxy_inclusive": [
+        411,
+        301,
+        476,
+        358
+      ],
+      "resized_bbox_max_projection_delta_px": 1,
+      "intensity_window_p1_p995": [
+        397.0,
+        54052.0
+      ],
+      "timings_seconds": {
+        "zip_and_dicom_read": 0.11239139997633174,
+        "pixel_decode": 0.011232300021219999,
+        "mask_and_bbox_check": 0.09305859997402877,
+        "normalize_and_resize": 0.23614190000807866,
+        "total": 0.45282419997965917
+      },
+      "memory_bytes": {
+        "baseline_working_set": 43999232,
+        "after_decode_working_set": 169025536,
+        "after_preprocess_working_set": 192659456,
+        "process_peak_working_set": 373346304
+      },
+      "status": "pass"
+    },
+    {
+      "patient_id": "P_00021",
+      "view": "MLO",
+      "pathology": "BENIGN",
+      "full_shape_hw": [
+        4480,
+        2904
+      ],
+      "crop_shape_hw": [
+        255,
+        277
+      ],
+      "mask_unique_values": [
+        0,
+        255
+      ],
+      "mask_area_pixels": 31033,
+      "mask_fraction": 0.002385333653089335,
+      "bbox_xyxy_inclusive": [
+        1449,
+        2123,
+        1685,
+        2337
+      ],
+      "resized_shape_hw": [
+        1024,
+        664
+      ],
+      "resized_mask_area_pixels": 1618,
+      "resized_bbox_xyxy_inclusive": [
+        332,
+        486,
+        385,
+        533
+      ],
+      "resized_bbox_max_projection_delta_px": 1,
+      "intensity_window_p1_p995": [
+        154.0,
+        52643.0
+      ],
+      "timings_seconds": {
+        "zip_and_dicom_read": 0.10722309997072443,
+        "pixel_decode": 0.006691400019917637,
+        "mask_and_bbox_check": 0.07467820000601932,
+        "normalize_and_resize": 0.17084209999302402,
+        "total": 0.3594347999896854
+      },
+      "memory_bytes": {
+        "baseline_working_set": 44212224,
+        "after_decode_working_set": 176791552,
+        "after_preprocess_working_set": 204779520,
+        "process_peak_working_set": 398102528
+      },
+      "status": "pass"
+    },
+    {
+      "patient_id": "P_00026",
+      "view": "MLO",
+      "pathology": "BENIGN",
+      "full_shape_hw": [
+        6796,
+        3361
+      ],
+      "crop_shape_hw": [
+        242,
+        275
+      ],
+      "mask_unique_values": [
+        0,
+        255
+      ],
+      "mask_area_pixels": 32931,
+      "mask_fraction": 0.001441727014805951,
+      "bbox_xyxy_inclusive": [
+        1986,
+        4175,
+        2220,
+        4376
+      ],
+      "resized_shape_hw": [
+        1024,
+        506
+      ],
+      "resized_mask_area_pixels": 744,
+      "resized_bbox_xyxy_inclusive": [
+        299,
+        629,
+        333,
+        658
+      ],
+      "resized_bbox_max_projection_delta_px": 1,
+      "intensity_window_p1_p995": [
+        938.0,
+        65535.0
+      ],
+      "timings_seconds": {
+        "zip_and_dicom_read": 0.20885510003427044,
+        "pixel_decode": 0.02169199998024851,
+        "mask_and_bbox_check": 0.13678850000724196,
+        "normalize_and_resize": 0.5202097999863327,
+        "total": 0.8875454000080936
+      },
+      "memory_bytes": {
+        "baseline_working_set": 44122112,
+        "after_decode_working_set": 275300352,
+        "after_preprocess_working_set": 327344128,
+        "process_peak_working_set": 668069888
+      },
+      "status": "pass"
+    },
+    {
+      "patient_id": "P_00041",
+      "view": "CC",
+      "pathology": "BENIGN_WITHOUT_CALLBACK",
+      "full_shape_hw": [
+        5664,
+        3984
+      ],
+      "crop_shape_hw": [
+        175,
+        219
+      ],
+      "mask_unique_values": [
+        0,
+        255
+      ],
+      "mask_area_pixels": 14438,
+      "mask_fraction": 0.0006398297994236835,
+      "bbox_xyxy_inclusive": [
+        1623,
+        1175,
+        1801,
+        1309
+      ],
+      "resized_shape_hw": [
+        1024,
+        720
+      ],
+      "resized_mask_area_pixels": 469,
+      "resized_bbox_xyxy_inclusive": [
+        293,
+        213,
+        324,
+        236
+      ],
+      "resized_bbox_max_projection_delta_px": 1,
+      "intensity_window_p1_p995": [
+        617.0,
+        59776.0
+      ],
+      "timings_seconds": {
+        "zip_and_dicom_read": 0.21906179998768494,
+        "pixel_decode": 0.025179199990816414,
+        "mask_and_bbox_check": 0.16777709999587387,
+        "normalize_and_resize": 0.5957106000278145,
+        "total": 1.0077287000021897
+      },
+      "memory_bytes": {
+        "baseline_working_set": 44179456,
+        "after_decode_working_set": 272052224,
+        "after_preprocess_working_set": 317841408,
+        "process_peak_working_set": 654618624
+      },
+      "status": "pass"
+    },
+    {
+      "patient_id": "P_00106",
+      "view": "CC",
+      "pathology": "BENIGN_WITHOUT_CALLBACK",
+      "full_shape_hw": [
+        5744,
+        3920
+      ],
+      "crop_shape_hw": [
+        148,
+        136
+      ],
+      "mask_unique_values": [
+        0,
+        255
+      ],
+      "mask_area_pixels": 5797,
+      "mask_fraction": 0.00025745587232107325,
+      "bbox_xyxy_inclusive": [
+        65,
+        1091,
+        160,
+        1198
+      ],
+      "resized_shape_hw": [
+        1024,
+        699
+      ],
+      "resized_mask_area_pixels": 185,
+      "resized_bbox_xyxy_inclusive": [
+        12,
+        195,
+        27,
+        213
+      ],
+      "resized_bbox_max_projection_delta_px": 2,
+      "intensity_window_p1_p995": [
+        375.0,
+        65535.0
+      ],
+      "timings_seconds": {
+        "zip_and_dicom_read": 0.16818590002367273,
+        "pixel_decode": 0.011821499967481941,
+        "mask_and_bbox_check": 0.13140060001751408,
+        "normalize_and_resize": 0.3700410000164993,
+        "total": 0.6814490000251681
+      },
+      "memory_bytes": {
+        "baseline_working_set": 44027904,
+        "after_decode_working_set": 271212544,
+        "after_preprocess_working_set": 315572224,
+        "process_peak_working_set": 650870784
+      },
+      "status": "pass"
+    },
+    {
+      "patient_id": "P_00054",
+      "view": "MLO",
+      "pathology": "BENIGN_WITHOUT_CALLBACK",
+      "full_shape_hw": [
+        4520,
+        2920
+      ],
+      "crop_shape_hw": [
+        286,
+        269
+      ],
+      "mask_unique_values": [
+        0,
+        255
+      ],
+      "mask_area_pixels": 35290,
+      "mask_fraction": 0.0026738089465389745,
+      "bbox_xyxy_inclusive": [
+        2504,
+        2869,
+        2732,
+        3114
+      ],
+      "resized_shape_hw": [
+        1024,
+        662
+      ],
+      "resized_mask_area_pixels": 1810,
+      "resized_bbox_xyxy_inclusive": [
+        568,
+        650,
+        618,
+        704
+      ],
+      "resized_bbox_max_projection_delta_px": 1,
+      "intensity_window_p1_p995": [
+        66.0,
+        61053.0
+      ],
+      "timings_seconds": {
+        "zip_and_dicom_read": 0.10347079997882247,
+        "pixel_decode": 0.007275499985553324,
+        "mask_and_bbox_check": 0.07818020001286641,
+        "normalize_and_resize": 0.18320470000617206,
+        "total": 0.37213119998341426
+      },
+      "memory_bytes": {
+        "baseline_working_set": 44183552,
+        "after_decode_working_set": 178913280,
+        "after_preprocess_working_set": 202846208,
+        "process_peak_working_set": 399163392
+      },
+      "status": "pass"
+    },
+    {
+      "patient_id": "P_00064",
+      "view": "MLO",
+      "pathology": "BENIGN_WITHOUT_CALLBACK",
+      "full_shape_hw": [
+        4560,
+        2832
+      ],
+      "crop_shape_hw": [
+        520,
+        582
+      ],
+      "mask_unique_values": [
+        0,
+        255
+      ],
+      "mask_area_pixels": 175390,
+      "mask_fraction": 0.013581468678759045,
+      "bbox_xyxy_inclusive": [
+        1857,
+        1439,
+        2398,
+        1918
+      ],
+      "resized_shape_hw": [
+        1024,
+        636
+      ],
+      "resized_mask_area_pixels": 8853,
+      "resized_bbox_xyxy_inclusive": [
+        417,
+        323,
+        538,
+        429
+      ],
+      "resized_bbox_max_projection_delta_px": 2,
+      "intensity_window_p1_p995": [
+        243.0,
+        58301.0
+      ],
+      "timings_seconds": {
+        "zip_and_dicom_read": 0.12951259996043518,
+        "pixel_decode": 0.00932820001617074,
+        "mask_and_bbox_check": 0.0810349999810569,
+        "normalize_and_resize": 0.23049210000317544,
+        "total": 0.45036789996083826
+      },
+      "memory_bytes": {
+        "baseline_working_set": 44113920,
+        "after_decode_working_set": 176816128,
+        "after_preprocess_working_set": 206475264,
+        "process_peak_working_set": 396668928
+      },
+      "status": "pass"
+    }
+  ]
+}
